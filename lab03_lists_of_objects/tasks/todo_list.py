@@ -4,4 +4,5 @@ class TodoList:
         self.tasks = []
 
     def add_task(self, task: str):
+        self.tasks.append(task)
         pass

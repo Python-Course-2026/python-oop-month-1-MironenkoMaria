@@ -6,4 +6,7 @@ class Smartphone:
 
     def use_app(self, cost: int):
         """Снижает заряд, но не ниже 0"""
+        while self.battery != 0:
+            self.battery -= 1
+        return self.battery
         pass

@@ -5,4 +5,6 @@ class Player:
         self.score = 0
 
     def add_score(self, points: int):
+        while  self.score < 10:
+            self.score += 1
         pass
